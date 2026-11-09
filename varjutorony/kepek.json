@@ -1,0 +1,578 @@
+[
+ {
+  "kep": 1,
+  "fejezet": 1,
+  "nev": "kezdet",
+  "cim": "Bodor a kútnál",
+  "leiras": "Fenyvesvölgy kihalt főtere este: bedeszkázott ablakok, középen kút, mellette egy ősz szakállú öregember (Bodor) erszényt nyújt a nézőnek. A háztetőkön és a kút káváján varjak ülnek.",
+  "prompt": "Deserted village square at dusk, boarded-up windows, an old bearded village elder by a stone well holding out a small purse towards the viewer, crows perched on roofs and on the well.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 2,
+  "fejezet": 83,
+  "nev": "fogado",
+  "cim": "A Részeg Kecske",
+  "leiras": "A fogadó füstös ivója: kandalló, gerendákról lógó sonkák, a pult mögött egy erős fogadósné, egy asztalnál kockázó szekeresek, a sarokban egy csuklyás idegen.",
+  "prompt": "Smoky medieval tavern interior, fireplace, hams hanging from beams, a sturdy innkeeper woman behind the bar, carters playing dice at a table, a hooded stranger sitting alone in the corner.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 3,
+  "fejezet": 411,
+  "nev": "kovacs",
+  "cim": "A kovácsműhely",
+  "leiras": "Kovácsműhely: izzó kohó, üllő, egy vállas kovács kalapáccsal, a falon kötél, lámpás, patkók, az asztalon egy ezüsttőr.",
+  "prompt": "Village smithy, glowing forge, broad-shouldered blacksmith with a hammer at the anvil, rope, lantern and horseshoes hanging on the wall, a silver dagger on the table.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 4,
+  "fejezet": 280,
+  "nev": "fuvesno",
+  "cim": "Gyopár néni kunyhója",
+  "leiras": "Füvesasszony kunyhója belülről: a mennyezetről szárított füvek csokrai lógnak, a tűzhelyen bogrács gőzölög, egy kendős öregasszony üvegcsét nyújt át.",
+  "prompt": "Herb-woman's cottage interior, bundles of dried herbs hanging from the ceiling, a cauldron steaming on the hearth, an old woman in a headscarf handing over a small glass vial.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 5,
+  "fejezet": 406,
+  "nev": "kapolna_f",
+  "cim": "A kifosztott kápolna",
+  "leiras": "A falu kápolnája: üres fülke az oltár mögött, betört ablak, a padlón fekete varjútollak, egy fiatal pap térdel az oltár előtt.",
+  "prompt": "Small village chapel interior, an empty niche behind the altar where a gem was kept, a broken window, black crow feathers on the floor, a young priest kneeling in prayer.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 6,
+  "fejezet": 156,
+  "nev": "harang_fent",
+  "cim": "A harangláb tetején",
+  "leiras": "A harangláb tetején a hős egy hatalmas, vörös szemű varjúval harcol; a háttérben a völgy, a láp ködje, a hegyek, és messze a Varjútorony.",
+  "prompt": "Top of a wooden bell tower, a hero fighting a huge crow with glowing red eyes, wide valley below with fog over a marsh, snowy mountains, and a dark tower far away on the horizon.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 7,
+  "fejezet": 101,
+  "nev": "molnar",
+  "cim": "Gáspár, a molnár",
+  "leiras": "Egy félvak öreg molnár lisztes kötényben a konyhájában; a tűzhely fölött egy fiatal legény rajza, a legény vállán varjú.",
+  "prompt": "A half-blind old miller in a floury apron in his kitchen; above the hearth hangs a charcoal drawing of a young man with a crow on his shoulder.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 8,
+  "fejezet": 124,
+  "nev": "temeto_virraszt",
+  "cim": "Éjfél a temetőben",
+  "leiras": "Holdfényes temető, kidőlt keresztek, a feltúrt sírokból két élőhalott tápászkodik fel; egy öreg sírásó lapáttal, mellette a hős.",
+  "prompt": "Moonlit village graveyard, toppled crosses, two rotting dead men climbing out of freshly dug graves, an old gravedigger raising his shovel beside the hero.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 9,
+  "fejezet": 371,
+  "nev": "kapu",
+  "cim": "Az északi kapu",
+  "leiras": "Fenyvesvölgy fa palánkkapuja, egy ijedt fiatal őr lándzsával; a kapu fölött fakereszt és egy odaszögezett varjú, a kapun túl a sötét fenyőerdő.",
+  "prompt": "Wooden palisade gate of a mountain village, a frightened young guard with a spear, a wooden cross and a nailed crow above the gate, dark pine forest beyond.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 10,
+  "fejezet": 323,
+  "nev": "erdo",
+  "cim": "A vörös szemű farkas",
+  "leiras": "Fenyőerdei út, az út közepén hatalmas szürke farkas izzó vörös szemmel, lopakodva közelít.",
+  "prompt": "Narrow path through a dark pine forest, a huge grey wolf with glowing red eyes stalking towards the viewer.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 11,
+  "fejezet": 204,
+  "nev": "erdo_ut2",
+  "cim": "Rablók a gázlónál",
+  "leiras": "Erdei patak gázlója, három rongyos rabló ugrik elő a bokrokból rozsdás kardokkal; a vezérük fél fülű, vigyorog.",
+  "prompt": "Forest stream ford, three ragged bandits jumping out of the bushes with rusty swords, their one-eared leader grinning.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 12,
+  "fejezet": 267,
+  "nev": "vadasz",
+  "cim": "A sebesült vadász",
+  "leiras": "Vadászkunyhó előtt egy idős vadász ül bekötött, véres karral, a lábánál öreg vadászkutya; a falon prémek száradnak.",
+  "prompt": "An old hunter with a bloody bandaged arm sitting in front of his log cabin, an old hound at his feet, furs drying on the wall.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 13,
+  "fejezet": 224,
+  "nev": "farkasvezer",
+  "cim": "Vörösszem, a falka vezére",
+  "leiras": "Bűzös barlang mélye csontokkal, egy borjúnyi szürke farkas vörös szemmel, a vállán fekete varjú ül.",
+  "prompt": "Deep foul cave strewn with bones, a calf-sized grey wolf with burning red eyes, a black crow perched on its shoulder.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 14,
+  "fejezet": 200,
+  "nev": "favago",
+  "cim": "A fa alá szorult favágó",
+  "leiras": "Erdei tisztás, egy kidőlt fenyőtörzs alá szorult favágó segítségért nyúl; mellette fejsze áll a tönkbe vágva.",
+  "prompt": "Forest clearing, a woodcutter pinned under a fallen pine trunk reaching out for help, an axe stuck in a stump nearby.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 15,
+  "fejezet": 40,
+  "nev": "tunderkor",
+  "cim": "A tündérkör",
+  "leiras": "Holdfényes tisztás, gombák tökéletes körben, a kör közepén apró, áttetsző szárnyú tündérek táncolnak a hős körül.",
+  "prompt": "Moonlit glade, mushrooms in a perfect fairy ring, tiny translucent-winged fairies dancing around the hero in the middle.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 16,
+  "fejezet": 42,
+  "nev": "borcsa",
+  "cim": "Varga Borcsa",
+  "leiras": "Egy vén tölgy gyökerei közé épült mohos kunyhó, zöld füstöt eregető kémény; az ajtóban egy görbe hátú, hosszú orrú boszorkány, a vállán fekete macska.",
+  "prompt": "Mossy hut built into the roots of an ancient oak, chimney puffing green smoke; a hunchbacked witch with a long nose in the doorway, a black cat on her shoulder.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 17,
+  "fejezet": 340,
+  "nev": "kokereszt",
+  "cim": "A kőkereszt",
+  "leiras": "Dombtetőn mohos kőkereszt, mellette apró fehér kápolnácska; két út indul: az egyik a ködös láp, a másik a havas hágó felé, a messzeségben a torony.",
+  "prompt": "A mossy stone cross on a hilltop beside a tiny white wayside chapel; one road leads down into a foggy marsh, the other up into snowy mountains; a distant dark tower.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 18,
+  "fejezet": 311,
+  "nev": "elagazas",
+  "cim": "Bence üzenete",
+  "leiras": "Közeli kép a kőkereszt tövéről: friss vadvirágcsokor, mellette egy kőhöz szorított, szénnel írt cédula egy kisfiú kerek betűivel.",
+  "prompt": "Close-up at the foot of a stone cross: a fresh bunch of wildflowers and a charcoal-written note held down by a stone, in a child's round handwriting.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 19,
+  "fejezet": 51,
+  "nev": "lap1",
+  "cim": "A Suttogó-láp",
+  "leiras": "Ködös láp: korhadt pallósor vezet be a ködbe, nád és elszáradt fa, a távolban kék lidércfény imbolyog; egy cölöpön tábla.",
+  "prompt": "Foggy marsh, a rotten boardwalk leading into the mist, reeds and a dead tree, a blue will-o'-the-wisp hovering in the distance, a wooden sign on a post.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 20,
+  "fejezet": 412,
+  "nev": "liderc",
+  "cim": "A lidércfény",
+  "leiras": "Közelről a lidércfény: egy ember magasságában lebegő kék fénygömb, benne egy áttetsző, nevető arc; a hős süppedő talajon követi.",
+  "prompt": "Close-up of a will-o'-the-wisp: a floating ball of cold light with a faint laughing face in it, the hero following it across sinking ground.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 21,
+  "fejezet": 404,
+  "nev": "lap_sziget",
+  "cim": "A fűzfás sziget",
+  "leiras": "Kis füves sziget a láp közepén, egy öreg fűzfa, a törzsébe vésett nyilakkal; a ködből egy templomtorony csúcsa emelkedik ki a vízből.",
+  "prompt": "A small grassy islet in the marsh with an old willow tree, arrows carved into its trunk; the top of a church steeple rises from the water in the misty distance.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 22,
+  "fejezet": 19,
+  "nev": "bekak",
+  "cim": "A békák királynője",
+  "leiras": "Kerek tó a nád között, a közepén egy tavirózsalevélen borjúnyi koronás béka ül; a parton egy szürke gém egy kis békára készül lecsapni.",
+  "prompt": "A round pond among reeds; a calf-sized frog wearing a golden crown sits on a lily pad in the middle; a grey heron on the bank is about to strike a little frog.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 23,
+  "fejezet": 225,
+  "nev": "revesz",
+  "cim": "Csobán, a révész",
+  "leiras": "Cölöpökre épült kunyhó a láp szélén, előtte lapos fenekű csónak; a stégen egy szakállas, horgas orrú öreg révész pipázik.",
+  "prompt": "A hut on stilts at the edge of the marsh, a flat-bottomed boat tied up in front; a bearded hook-nosed old ferryman smoking a pipe on the jetty.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 24,
+  "fejezet": 310,
+  "nev": "atkeles",
+  "cim": "A lápi troll",
+  "leiras": "Csónak a fekete vízen a ködben, egy hatalmas, mohos lápi troll a csónak peremébe kapaszkodik; a révész evezővel, a hős karddal.",
+  "prompt": "A rowing boat on black water in thick fog, a huge mossy swamp troll grabbing the side of the boat; the ferryman with an oar, the hero with a sword.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 25,
+  "fejezet": 50,
+  "nev": "troll_hid",
+  "cim": "A troll hídja",
+  "leiras": "Ősi, mohos kőhíd a patak fölött, a pillérei közötti üregből egy hatalmas troll mászik elő bunkóval; a hős a híd közepén.",
+  "prompt": "An ancient mossy stone bridge over a stream; a huge troll with a club climbs out of the hollow between the piers; the hero stands in the middle of the bridge.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 26,
+  "fejezet": 181,
+  "nev": "malom",
+  "cim": "A romos vízimalom",
+  "leiras": "A Fekete-patak partján romos vízimalom, a mohos kerék még forog, vízfüggöny zuhog a mély malomgödörbe; a háttérben a torony.",
+  "prompt": "A ruined watermill on the bank of a dark stream, its mossy wheel still turning, a curtain of water pouring into a deep pit; the dark tower in the background.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 27,
+  "fejezet": 149,
+  "nev": "sullyedt",
+  "cim": "Az elsüllyedt falu",
+  "leiras": "Ködből előbukkanó, vízbe süllyedt falu: kiálló háztetők, kémények varjakkal, középen templomtorony; a hős derékig a vízben.",
+  "prompt": "A drowned village emerging from fog: rooftops and chimneys sticking out of the water with crows on them, a church tower in the middle; the hero wading waist-deep.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 28,
+  "fejezet": 395,
+  "nev": "sullyedt_templom",
+  "cim": "A vízbefúlt lelkek",
+  "leiras": "Derékig vízzel elárasztott templombelső, úszó padok, megfakult freskók; sápadt, kékes, üres szemű kísértetek lebegnek a hős felé.",
+  "prompt": "Flooded church interior, water waist-deep, floating pews, faded frescoes; pale glowing ghosts with empty eyes drifting towards the hero.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 29,
+  "fejezet": 351,
+  "nev": "banya",
+  "cim": "A lápi banya",
+  "leiras": "Cölöpös kunyhó a Holt Fák szigetén, csupasz fehér fák; az ajtóban egy ránctól barázdált vén asszony hínárszerű hajjal, előtte ezüstös holdvirág nyílik.",
+  "prompt": "A stilted hut on an island of dead white trees; in the doorway a wrinkled old hag with seaweed-like hair; a silvery moon-flower blooms in front of the hut.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 30,
+  "fejezet": 301,
+  "nev": "hago1",
+  "cim": "A Kőkapu",
+  "leiras": "Szűk sziklaszoros, két hatalmas sziklaoszlop kapuként áll egymással szemben, rúnákkal és egy faragott törpfejjel; mögülük vékony füst száll fel.",
+  "prompt": "A narrow mountain pass where two huge rock pillars stand like a gate, carved with runes and a dwarf's face; thin smoke rising behind them.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 31,
+  "fejezet": 262,
+  "nev": "kobold_les",
+  "cim": "A koboldtábor",
+  "leiras": "Sziklák közti mélyedés, tábortűz körül hegyes fülű, szürke koboldok lándzsákkal, egy tollas sisakos kövér vezér; a tábor szélén fakalitka, benne egy megkötözött törp.",
+  "prompt": "A hollow among rocks, grey pointy-eared goblins with spears around a campfire, a fat leader in a feathered helmet; at the edge of the camp a wooden cage holding a tied-up dwarf.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 32,
+  "fejezet": 182,
+  "nev": "torp_szabad",
+  "cim": "Dömötör, a törp",
+  "leiras": "Zömök törp kőfaragó fonott, ezüstkarikás szakállal, kinyújtóztatja magát a kinyitott kalitka mellett, a kezében egy éles acélvéső.",
+  "prompt": "A stocky dwarf stonecarver with a braided beard decorated with silver rings, stretching beside an opened cage, holding a sharp steel chisel.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 33,
+  "fejezet": 283,
+  "nev": "remete",
+  "cim": "Ambrus, a remete",
+  "leiras": "Sziklapárkányon nyíló barlang szája, kis tűz mellett ősz, hosszú szakállú öregember kopott szerzetesi csuhában; mögötte fakereszt és könyvek.",
+  "prompt": "Mouth of a cave on a rocky ledge, a white-bearded old hermit in a worn monk's habit sitting by a small fire, a wooden cross and a few books behind him.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 34,
+  "fejezet": 163,
+  "nev": "banya_csarnok",
+  "cim": "A törpkirályok csarnoka",
+  "leiras": "Föld alatti csarnok faragott törpkirály-oszlopokkal, ezüsterek a falakon; középen kőasztal mögött vén törp kereskedő gyertyafényben; a háttérben kőajtó és egy mozdulatlan kőóriás.",
+  "prompt": "Underground hall with pillars carved as dwarf kings, silver veins glittering in the walls; an old dwarf merchant behind a stone table by candlelight; a stone door and a motionless stone giant in the background.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 35,
+  "fejezet": 402,
+  "nev": "koorias",
+  "cim": "A kőóriás",
+  "leiras": "Háromszor emberméretű kőóriás repedezett, mohos testtel, izzó kristályszemmel áll egy hatalmas kőajtó előtt; a hős kicsinek tűnik előtte.",
+  "prompt": "A stone giant three times human height, cracked and mossy, with glowing crystal eyes, guarding a huge stone door; the hero looks tiny before it.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 36,
+  "fejezet": 97,
+  "nev": "kiralysir",
+  "cim": "A napkő",
+  "leiras": "Törpkirályok sírkamrája csillagos, kristályos mennyezettel, kőkoporsók kőkoronákkal; egy nyitott ládikában tojásnyi, napként izzó kő.",
+  "prompt": "Tomb chamber of dwarf kings with a starry crystal-studded ceiling, stone coffins with stone crowns; in an open casket an egg-sized stone glowing like the sun.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 37,
+  "fejezet": 179,
+  "nev": "sasberc",
+  "cim": "A sasfészek",
+  "leiras": "Havas, meredek sziklafal tetején ágakból és csontokból rakott hatalmas fészek, benne éhesen vijjogó sasfióka; a hős kötélen mászik fel.",
+  "prompt": "A huge nest of branches and bones atop a steep snowy cliff, a hungry eaglet screeching inside; the hero climbing up on a rope.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 38,
+  "fejezet": 183,
+  "nev": "sas_repul",
+  "cim": "A sas repülése",
+  "leiras": "Óriási sas repül a felhők fölött, a hátán a hős kapaszkodik; alattuk a völgy, előttük a Varjútorony csúcsa, a varjak szétrebbennek.",
+  "prompt": "A giant eagle flying above the clouds with the hero clinging to its back; the valley far below, the top of the dark crow tower ahead, crows scattering.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 39,
+  "fejezet": 289,
+  "nev": "kotelhid",
+  "cim": "A kötélhíd",
+  "leiras": "Mély szakadék fölött rozoga kötélhíd, a deszkák fele hiányzik; a szakadék szélén egy fiú szakadt tarisznyája hever.",
+  "prompt": "A rickety rope bridge over a deep chasm with half its planks missing; a boy's torn satchel lies at the edge of the chasm.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 40,
+  "fejezet": 160,
+  "nev": "hoviharos",
+  "cim": "Hóvihar a hágón",
+  "leiras": "Vízszintesen hulló hóvihar a hágón, a hős lehajtott fejjel küzd a széllel; az út eltűnik a hóban.",
+  "prompt": "A blizzard on the mountain pass, snow flying sideways, the hero bent against the wind; the path disappearing in the snow.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 41,
+  "fejezet": 128,
+  "nev": "jegbarlang",
+  "cim": "A jégtroll barlangja",
+  "leiras": "Kékes fényű jégbarlang, falaiba fagyott állatok és kristályok; a mélyén egy fehér bundájú, jégcsapos szakállú jégtroll alszik.",
+  "prompt": "A glowing blue ice cave with animals frozen in its walls and crystals; deep inside sleeps an ice troll with white fur and an icicle beard.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 42,
+  "fejezet": 321,
+  "nev": "toronyut",
+  "cim": "A Varjútorony",
+  "leiras": "Sziklás dombon áll a fekete kőből épült, csorba tetejű Varjútorony, párkányain varjak százai; az úton romos kápolna és kőfalas temető.",
+  "prompt": "The crow tower of black stone with a broken top on a rocky hill, hundreds of crows on its ledges; along the road a ruined chapel and a walled graveyard.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 43,
+  "fejezet": 360,
+  "nev": "kapuor",
+  "cim": "Csontvázak a kapuban",
+  "leiras": "A torony vasalt tölgyfa kapuja ezüstzárral, előtte két csontváz őr rozsdás alabárddal, a koponyájukban vörös fény.",
+  "prompt": "The iron-studded oak gate of the tower with a silver lock, guarded by two skeletons with rusty halberds and red light in their skulls.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 44,
+  "fejezet": 164,
+  "nev": "kapolna_rom",
+  "cim": "Ábris szelleme",
+  "leiras": "Romos, beomlott tetejű kápolna, korhadt padok; az oltár előtt áttetsző, kékes, páncélos és szakállas lovagszellem térdel, és a néző felé fordul.",
+  "prompt": "A ruined chapel with a collapsed roof and rotten pews; before the altar kneels a translucent armoured, bearded knight's ghost turning towards the viewer.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 45,
+  "fejezet": 88,
+  "nev": "lovag_temeto",
+  "cim": "A lovagok temetője",
+  "leiras": "Csendes, elhagyatott temető, sírlapokon fekvő kőlovagok kőkarddal; a harmadik sír fedőlapja megrepedt; középen nyitott kripta, a hátsó falat borostyán futja be.",
+  "prompt": "A quiet abandoned graveyard with stone knight effigies lying on the tombs holding stone swords; one slab is cracked; an open crypt in the middle, ivy covering the back wall.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 46,
+  "fejezet": 297,
+  "nev": "kripta",
+  "cim": "A kőlovag",
+  "leiras": "Boltíves kripta, a falak mentén kőkoporsók; a középső faragott koporsóról izzó szemű kőlovag tápászkodik fel, kőkardját felemelve.",
+  "prompt": "A vaulted crypt with stone coffins along the walls; from the central carved sarcophagus a stone knight with glowing eyes rises, lifting his stone sword.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 47,
+  "fejezet": 35,
+  "nev": "akasztofa",
+  "cim": "Vince szelleme",
+  "leiras": "Kis dombon korhadt akasztófa rongyos kötéldarabbal; a tövében lévő kőhalmon szürke, áttetsző szellem ül, a fejét a kezébe temetve.",
+  "prompt": "A rotten gallows on a little hill with a frayed rope end; on a cairn beneath it sits a grey translucent ghost, head buried in his hands.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 48,
+  "fejezet": 25,
+  "nev": "udvar",
+  "cim": "A torony udvara",
+  "leiras": "Kövezett udvar fekete tollakkal, középen koponyákkal kirakott kávájú kút; körben a kaszárnya, a kéményes konyha, a torony kapuja és egy varjakkal teli kerek torony.",
+  "prompt": "A cobbled courtyard littered with black feathers, a well whose rim is lined with skulls in the middle; around it barracks, a kitchen with a smoking chimney, the main tower door and a round tower full of crows.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 49,
+  "fejezet": 3,
+  "nev": "kaszarnya",
+  "cim": "A kaszárnya",
+  "leiras": "Hosszú, sötét terem, priccseken páncélos csontvázak fekszenek, mintha aludnának; a falon kardok és pajzsok, a terem végén láda.",
+  "prompt": "A long dark barracks hall, armoured skeletons lying on bunks as if asleep; swords and shields on the wall, a chest at the far end.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 50,
+  "fejezet": 27,
+  "nev": "konyha",
+  "cim": "Gorgó, a ghoul szakács",
+  "leiras": "Mocskos toronykonyha, kampókon lógó állatok, óriási üstben fortyogó zöld lé; egy tagbaszakadt, szürke bőrű ghoul szakács kavargat, az övén vaskulcs lóg.",
+  "prompt": "A filthy castle kitchen, carcasses on hooks, a huge cauldron bubbling with green broth; a hulking grey-skinned ghoul cook stirring, an iron key hanging from his belt.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 51,
+  "fejezet": 95,
+  "nev": "pince_feny",
+  "cim": "Az óriáspók",
+  "leiras": "Boltíves, pókhálós pince hordókkal; a lámpás fényében egy kutyányi óriáspók ereszkedik le a mennyezetről.",
+  "prompt": "A vaulted cellar full of cobwebs and barrels; in the lantern light a dog-sized giant spider descends from the ceiling.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 52,
+  "fejezet": 38,
+  "nev": "katakomba",
+  "cim": "A katakomba",
+  "leiras": "Végtelen katakombafolyosó, a falakba vájt fülkékben koponyák és csontok; a folyosó elágazik, balra zöld fény dereng.",
+  "prompt": "An endless catacomb corridor, niches in the walls full of skulls and bones; the corridor forks, a green glow on the left.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 53,
+  "fejezet": 37,
+  "nev": "kata_mely",
+  "cim": "A kőszemű őr",
+  "leiras": "Katakombafolyosó kővé dermedt, rémült szerzetesszobrokkal; a folyosó végén egy pikkelyes, kígyófejű lény közeledik sárgán izzó szemmel; a hős ezüsttükröt tart elé, elfordított fejjel.",
+  "prompt": "A catacomb corridor with petrified, terrified monk statues; at the end a scaly serpent-headed creature with glowing yellow eyes approaches; the hero holds up a silver mirror, looking away.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 54,
+  "fejezet": 119,
+  "nev": "kata_zold",
+  "cim": "A Holdanya könnye",
+  "leiras": "Kis katakombakápolna zöld fényben, kőoltáron kristálykehely, benne magától világító víz; a falon ezüstbetűs nevek.",
+  "prompt": "A small catacomb chapel in green light, a crystal chalice of self-glowing water on a stone altar; names in silver letters on the walls.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 55,
+  "fejezet": 249,
+  "nev": "borton",
+  "cim": "A börtön",
+  "leiras": "A torony börtönfolyosója, nyirkos cellák rozsdás láncokkal, egy fáklya; a folyosó végén vasajtós cella, a rácsos ablakán át egy arc néz ki.",
+  "prompt": "The tower's dungeon corridor, damp cells with rusty chains, a torch; at the far end a cell with an iron door, a face looking out through its barred window.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 56,
+  "fejezet": 147,
+  "nev": "bence_cella",
+  "cim": "Bence a cellában",
+  "leiras": "Közelről egy cella vasajtajának rácsos ablaka, mögötte egy sápadt, piszkos arcú, dacos szemű tizenhat éves fiú.",
+  "prompt": "Close-up of a cell door's barred window; behind it a pale, dirty-faced teenage boy with defiant eyes.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 57,
+  "fejezet": 369,
+  "nev": "kata_csontkamra",
+  "cim": "A csontkamra",
+  "leiras": "Mennyezetig csontokkal teli oldalkamra, koponyaoszlopok, combcsont-boltívek, csontoltár ezüst gyertyatartóval; a falból csuhás szerzetes-csontvázak bontakoznak ki zöld szemmel.",
+  "prompt": "An ossuary chamber filled to the ceiling with bones, pillars of skulls, arches of thighbones, a bone altar with a silver candlestick; hooded monk skeletons emerging from the wall with green eyes.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 58,
+  "fejezet": 228,
+  "nev": "csarnok",
+  "cim": "A varjúdémon",
+  "leiras": "Magas, sötét csarnok fekete gerendákkal, varjúfejes címerpajzsokkal; a kőtrónon emberméretű, fekete tollas, varjúfejű, sarlókarmú démon gubbaszt.",
+  "prompt": "A tall dark hall with black beams and crow-headed coats of arms; on the stone throne crouches a man-sized black-feathered, crow-headed demon with sickle claws.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 59,
+  "fejezet": 99,
+  "nev": "varjuhaz",
+  "cim": "A varjak tornya",
+  "leiras": "Kerek torony belseje, gerendákon és fészkekben száz meg száz varjú; középen egy rúdon okos szemű, ősz tollú vén holló.",
+  "prompt": "Inside a round tower, hundreds of crows on beams and in nests; in the middle an old raven with grey feathers and clever eyes on a perch.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 60,
+  "fejezet": 148,
+  "nev": "konyvtar",
+  "cim": "Morvath könyvtára",
+  "leiras": "Mennyezetig érő polcok bőrkötéses könyvekkel, íróasztalon gyertya és nyitott napló, olvasópulton egy fekete könyv; a polcok közül könyvek röppennek fel.",
+  "prompt": "Floor-to-ceiling shelves of leather-bound books, a candle and an open diary on a writing desk, a black book on a lectern; books flying off the shelves like birds.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 61,
+  "fejezet": 171,
+  "nev": "alkimia",
+  "cim": "Az alkímiai műhely",
+  "leiras": "Varázslóműhely lombikokkal, fortyogó üvegekkel; az asztalon egy piros, egy kék és egy fekete üvegcse, mögötte egy macskanagyságú, ráncos, szarvacskás homunkulusz.",
+  "prompt": "A sorcerer's laboratory with alembics and bubbling glassware; on the table a red, a blue and a black vial, behind them a cat-sized wrinkled homunculus with little horns.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 62,
+  "fejezet": 39,
+  "nev": "lepcso",
+  "cim": "A csigalépcső",
+  "leiras": "Csigalépcső a torony falában, fáklyák; a falréseiből éles pengék csapnak ki, a hős félreugrik.",
+  "prompt": "A spiral staircase inside the tower wall lit by torches; sharp blades shoot out of slits in the wall as the hero leaps aside.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 63,
+  "fejezet": 159,
+  "nev": "tukorterem",
+  "cim": "Az árnyékod",
+  "leiras": "Kerek terem, falai, padlója, mennyezete tükör; az egyik tükörképe kilép a tükörből fekete szemmel, a kezében a hős kardjának mása.",
+  "prompt": "A round chamber whose walls, floor and ceiling are mirrors; one reflection steps out of the glass with black eyes, holding a copy of the hero's sword.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 64,
+  "fejezet": 162,
+  "nev": "tetoterasz",
+  "cim": "A tetőterasz",
+  "leiras": "A torony lapos teteje, peremén varjak, középen kőoltár csillagászati műszerrel (Nap, csillagok, Hold egy körben); csapóajtó; alatta mélyen a völgy, lemenő nap.",
+  "prompt": "The tower's flat roof terrace, crows on the parapet, a stone altar with an astronomical instrument (sun, stars and moon in a circle) in the middle; a trapdoor; the valley far below under a setting sun.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 65,
+  "fejezet": 166,
+  "nev": "pecset",
+  "cim": "A pecsétes ajtó",
+  "leiras": "Hatalmas fekete kőajtó három faragott, benyomható kőkoronggal: sugaras Nap, ötágú csillag, holdsarló; fölöttük figyelmeztető felirat.",
+  "prompt": "A huge black stone door with three carved push-discs: a rayed sun, a five-pointed star and a crescent moon; a warning inscription above them.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 66,
+  "fejezet": 308,
+  "nev": "morvath_terem",
+  "cim": "Morvath, a varjak ura",
+  "leiras": "Kör alakú terem üvegkupolával, csillagos ég; az oltáron ragyog a Holdkő; mellette sápadt, fekete szemű, fekete köpenyes varázsló, a vállán ősz holló.",
+  "prompt": "A round chamber under a glass dome and starry sky; the Moonstone shines on an altar; beside it a pale sorcerer with black eyes in a black cloak, an old grey raven on his shoulder.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 67,
+  "fejezet": 16,
+  "nev": "morvath_nev",
+  "cim": "A név hatalma",
+  "leiras": "A hős kinyújtott kézzel kiáltja a nevet; a varázsló megtántorodik, a fekete fény szétfoszlik körülötte, a holló riadtan felrebben.",
+  "prompt": "The hero shouts a name with outstretched arm; the sorcerer staggers back as the black aura around him shreds apart, the raven flaps away in alarm.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 68,
+  "fejezet": 186,
+  "nev": "morvath_napko",
+  "cim": "A napkő fénye",
+  "leiras": "A hős a magasba emeli a vakítóan izzó napkövet; a varázsló a szeme elé kapja a kezét, a sötétség elillan a fény elől.",
+  "prompt": "The hero raises the blazing sunstone high; the sorcerer throws his arm over his eyes as the darkness flees from the light.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 69,
+  "fejezet": 62,
+  "nev": "atok_amulett",
+  "cim": "A halálátok",
+  "leiras": "A földre rogyott varázsló felemelt kezéből fekete füstként kígyózik az átok a hős felé; a hős nyakában az amulett fehér fénnyel felragyog, és visszaveri.",
+  "prompt": "The fallen sorcerer raises a hand and a curse snakes towards the hero like black smoke; the amulet on the hero's chest blazes with white light and turns it back.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 70,
+  "fejezet": 235,
+  "nev": "omlas",
+  "cim": "Az omló torony",
+  "leiras": "A Varjútorony omlik: a kupola üvege hullik, kövek zuhannak, a padló megreped; a hős a Holdkővel a kezében menekül, mellette a fiú.",
+  "prompt": "The crow tower collapses: the glass dome shatters, stones fall, the floor cracks; the hero flees holding the Moonstone, the boy at his side.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 71,
+  "fejezet": 263,
+  "nev": "kijut",
+  "cim": "A romok",
+  "leiras": "A domb tetején már csak fekete kőhalom maradt a Varjútoronyból; a porfelhő elül, az ég kitisztul, a varjak szétszélednek; a hős a Holdkővel a kezében nézi.",
+  "prompt": "Only a heap of black stones remains of the crow tower on the hilltop; the dust settles, the sky clears, crows scatter; the hero watches, holding the Moonstone.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ },
+ {
+  "kep": 72,
+  "fejezet": 133,
+  "nev": "gyozelem",
+  "cim": "A Holdkő hazatér",
+  "leiras": "A kápolna fülkéjében újra ragyog a Holdkő, telihold éjszakáján ezüstös fénye beragyogja a völgyet; a falu népe ünnepel, egy fiú fűzfasípot fúj.",
+  "prompt": "The Moonstone shines again in the chapel niche; on the night of the full moon its silver light floods the valley; the villagers celebrate, a boy plays a willow pipe.. black ink illustration on white paper, classic 1980s fantasy gamebook style, bold cross-hatching, high contrast, no grey wash, portrait 5:8"
+ }
+]

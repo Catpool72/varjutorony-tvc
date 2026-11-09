@@ -1,0 +1,7 @@
+frames 20
+type load"kaland"
+enter
+frames 400
+fuzz 15000 7 2BD6 2ED6
+shot fz4
+pc

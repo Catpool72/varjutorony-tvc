@@ -1,0 +1,23 @@
+frames 20
+type load"kaland"
+enter
+frames 400
+shot a_cim
+key 32
+frames 40
+shot a_lap
+key 32
+watch 150
+shot a_elo1
+key 32
+watch 60
+key 32
+watch 60
+key 32
+watch 60
+key 32
+watch 60
+key 32
+watch 150
+shot a_elo2
+pc
