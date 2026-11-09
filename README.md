@@ -40,7 +40,7 @@ cd varjutorony
 python3 kepcsere.py 12 uj_kep.png --neg --lagyit 2   # zöld-fekete, pontozott kép (mint a mostaniak)
 python3 kepcsere.py 12 uj_kep.png                    # fekete tusrajz fehér papíron
 ```
-A TVC 2 színű módjában a kép 240×240 képpont (a képernyőn álló 5:8 arányú); a kép sötét részei lesznek zöldek.
+A TVC 2 színű módjában a kép 240×240 képpont (a képernyőn álló 5:8 arányú); a kép sötét részeit a tinta színe festi (alapból fehér, fekete háttéren; a kalandlapon Bal/Jobb nyíllal állítható).
 Részletek: [`varjutorony/README.md`](varjutorony/README.md).
 
 ## Szerzők

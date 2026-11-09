@@ -219,6 +219,7 @@ def main():
         assert len({i >> 3 for i in kids}) <= 1
         w(f'N_ITEMS     equ {len(game.ITEMS)}')
         w(f'WIN_SEC     equ {WIN}')
+        w(f"PAL_INK0    equ {meta.get('ink', 12)}          ; a tinta alapszíne (0..15: bit0 kék, 1 vörös, 2 zöld, 3 fényes)")
         w(f'INTRO2_SEC  equ {NS + 1}')
         w(f'START_SEC   equ {0 if HAS_INTRO else 1}')
         w(f'KEYBYTE     equ {kids[0] >> 3 if kids else 0}')

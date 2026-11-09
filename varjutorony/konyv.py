@@ -63,7 +63,7 @@ def build():
         text, jumps = render(kv.S[name][0])
         secs.append({'id': NUM[name], 'name': name, 'region': kv.REGION[name], 'text': text, 'jumps': jumps})
     secs.sort(key=lambda s: s['id'])
-    meta = {'title': TITLE, 'win': NUM['gyozelem'],
+    meta = {'title': TITLE, 'win': NUM['gyozelem'], 'ink': 15,     # fehér tinta a fekete háttéren
             'ui': {'TITLE1': TITLE, 'TITLE2': 'kalandkönyv', 'TITLE3': 'Kaland Játék Kockázat',
                    'TITLE4': 'TVC lemezes változat'},
             'disk_title4': 'TVC lemezes változat'}

@@ -1223,7 +1223,7 @@ show_sheet:
 ; Ugyanaz a szin nem lehet hatter es tinta is (atugorja).
 ;-----------------------------------------------------------------------------
 pal_paper:  db 0                ; fekete
-pal_ink:    db 12               ; vilagoszold
+pal_ink:    db PAL_INK0         ; alapszin: a könyv meta 'ink' értéke (alap: 12 = világoszöld)
 
 ; color_keys: A = lenyomott billentyuk; A-t es B-t megtartja
 color_keys:
