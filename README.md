@@ -3,6 +3,10 @@
 Saját „lapozós” kalandkönyv TVC-re: **413 fejezet**, kb. 175 000 karakter, **72 kép**, zene, harc, próbák,
 tárgyak, mentés és visszatöltés. Lemezes változat (VT-DOS, 720K); TVC 64K-n és 64K+-on is fut.
 
+**Videó a játékról:** [https://youtu.be/FrJeCwGuSBg](https://youtu.be/FrJeCwGuSBg)
+
+[![Videó a játékról](https://img.youtube.com/vi/FrJeCwGuSBg/hqdefault.jpg)](https://youtu.be/FrJeCwGuSBg)
+
 ![A 72 kép a TVC-n](varjutorony/kepek_attekintes.png)
 
 ## Indítás
