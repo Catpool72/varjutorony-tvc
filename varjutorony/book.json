@@ -594,7 +594,7 @@
    "id": 59,
    "name": "alkimia_lombik",
    "region": "felso",
-   "text": "A tűz fölött egy ember nagyságú lombik bugyborékol, benne sűrű, aranyszínű folyadék. A gőze édes és kábító. A lombik mellett egy kis csap van, alatta egy üres kupa. Ha megtöltöd a kupát, és iszol belőle, lapozz a 358-ra. Ha visszamész az asztalhoz, lapozz a 171-re.",
+   "text": "A tűz fölött egy ember nagyságú lombik bugyborékol, benne sűrű, aranyszínű folyadék. A gőze édes és kábító. A lombik mellett egy kis csap van, alatta egy üres kupa. Ha megtöltöd a kupát, és iszol belőle (egyszer teheted meg), lapozz a 358-ra. Ha visszamész az asztalhoz, lapozz a 171-re.",
    "jumps": [
     358,
     171
@@ -820,7 +820,7 @@
    "id": 83,
    "name": "fogado",
    "region": "falu",
-   "text": "A Részeg Kecske ivója füstös és meleg. A pult mögött Lenke, a fogadósné törölgeti a korsókat, a kandalló mellett két szekeres kockázik, egy szálfa termetű favágó hangosan követeli a következő korsót, a sarokban pedig egy csuklyás alak ül egyedül, és téged figyel. A falakon szarvasagancsok és megfakult vadászjelenetek lógnak, a gerendákról sonkák és hagymafüzérek. A pult fölött egy kecskefej vigyorog, a szarvai közé valaki egy kalapot akasztott. Ha odaülsz a csuklyáshoz, lapozz a 282-re. Ha beszállsz a kockajátékba, lapozz a 46-ra. Ha a pulthoz lépsz, és Lenkével beszélsz, lapozz a 184-re. Ha kivennél egy szobát éjszakára, lapozz a 240-re. Ha visszamész a főtérre, lapozz a 47-re.",
+   "text": "A Részeg Kecske ivója füstös és meleg. A pult mögött Lenke, a fogadósné törölgeti a korsókat, a kandalló mellett két szekeres kockázik, egy szálfa termetű favágó hangosan követeli a következő korsót, a sarokban pedig egy csuklyás alak ül egyedül, és téged figyel. A falakon szarvasagancsok és megfakult vadászjelenetek lógnak, a gerendákról sonkák és hagymafüzérek. A pult fölött egy kecskefej vigyorog, a szarvai közé valaki egy kalapot akasztott. Ha odaülsz a csuklyáshoz, lapozz a 282-re. Ha beszállsz a kockajátékba (egyszer játszhatsz), lapozz a 46-ra. Ha a pulthoz lépsz, és Lenkével beszélsz, lapozz a 184-re. Ha kivennél egy szobát éjszakára, lapozz a 240-re. Ha visszamész a főtérre, lapozz a 47-re.",
    "jumps": [
     282,
     46,
@@ -2945,7 +2945,7 @@
    "id": 303,
    "name": "kut_t",
    "region": "belso",
-   "text": "A kút káváján koponyák vigyorognak. A mélyéből halvány, ezüstös fény dereng, és a vödör kötele még ép. A kút kávájára rakott koponyák között egy rozsdás lánc tekereg, és a vödör nyikorogva leng a szélben. A mélyből hideg lehelet száll fel. Ha felhúzod a vödröt, lapozz a 307-re. Ha belenézel a kútba, lapozz a 121-re. Ha visszamész az udvar közepére, lapozz a 25-re.",
+   "text": "A kút káváján koponyák vigyorognak. A mélyéből halvány, ezüstös fény dereng, és a vödör kötele még ép. A kút kávájára rakott koponyák között egy rozsdás lánc tekereg, és a vödör nyikorogva leng a szélben. A mélyből hideg lehelet száll fel. Ha felhúzod a vödröt (egyszer teheted meg), lapozz a 307-re. Ha belenézel a kútba, lapozz a 121-re. Ha visszamész az udvar közepére, lapozz a 25-re.",
    "jumps": [
     307,
     121,

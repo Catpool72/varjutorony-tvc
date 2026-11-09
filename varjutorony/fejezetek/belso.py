@@ -10,8 +10,8 @@ egy keskeny, kerek torony áll, tele varjakkal. Ha a kúthoz mész, [[kut_t]]. H
 varjak tornyába, [[varjuhaz]].''')
 
 sec('kut_t', '''A kút káváján koponyák vigyorognak. A mélyéből halvány, ezüstös fény dereng, és a vödör kötele még
-ép. Ha felhúzod a vödröt, [[kut_vodor]]. Ha belenézel a kútba, [[kut_nez]]. Ha visszamész az udvar
-közepére, [[udvar]].''')
+ép. Ha felhúzod a vödröt (egyszer teheted meg), [[kut_vodor]]. Ha belenézel a kútba, [[kut_nez]]. Ha visszamész az udvar
+közepére, [[udvar]].''', gate(T('kut_vodor'), nvis('kut_vodor')))
 
 sec('kut_vodor', '''A csörlő nyikorogva fordul, és a vödör lassan felemelkedik. Tedd próbára a szerencsédet! Ha szerencséd
 van, a vödörben a víz mellett három aranytallér csillog, amit valaki a kútba ejtett. Ha nincs, egy

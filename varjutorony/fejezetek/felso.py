@@ -253,8 +253,8 @@ magával ránt a lapok közé, a sötétségbe, ahonnan nincs visszaút. A kalan
 
 sec('alkimia_lombik', '''A tűz fölött egy ember nagyságú lombik bugyborékol, benne sűrű, aranyszínű folyadék. A gőze édes és
 kábító. A lombik mellett egy kis csap van, alatta egy üres kupa. Ha megtöltöd a kupát, és iszol
-belőle, [[lombik_iszik]]. Ha
-visszamész az asztalhoz, [[alkimia]].''')
+belőle (egyszer teheted meg), [[lombik_iszik]]. Ha
+visszamész az asztalhoz, [[alkimia]].''', gate(T('lombik_iszik'), nvis('lombik_iszik')))
 
 sec('lombik_iszik', '''Az aranyszínű folyadék édes, mint a méz, de utána égetni kezdi a torkodat. Tedd próbára a
 szerencsédet! Ha szerencséd van, a varázsital ereje a javadra válik: az ÜGYESSÉGED, az ÉLETERŐD és a

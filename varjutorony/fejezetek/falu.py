@@ -39,9 +39,9 @@ utcák kereszteződéséhez, [[utca]].''')
 sec('fogado', '''A Részeg Kecske ivója füstös és meleg. A pult mögött Lenke, a fogadósné törölgeti a korsókat, a
 kandalló mellett két szekeres kockázik, egy szálfa termetű favágó hangosan követeli a következő
 korsót, a sarokban pedig egy csuklyás alak ül egyedül, és téged figyel. Ha odaülsz a csuklyáshoz,
-[[idegen]]. Ha beszállsz a kockajátékba, [[kocka]]. Ha a pulthoz lépsz, és Lenkével beszélsz,
+[[idegen]]. Ha beszállsz a kockajátékba (egyszer játszhatsz), [[kocka]]. Ha a pulthoz lépsz, és Lenkével beszélsz,
 [[fogado_pult]]. Ha kivennél egy szobát éjszakára, [[fogado_szoba]]. Ha visszamész a főtérre,
-[[ter]].''')
+[[ter]].''', gate(T('kocka'), nvis('kocka')))
 
 sec('fogado_pult', '''Lenke egy korsó forralt bort tol eléd. - Bence, Bodor unokája itt ült két napja, ahol most te -
 mondja halkan. - Arról kérdezte a vendégeket, merre van a Varjútorony, és hogyan lehet bejutni. Azt
