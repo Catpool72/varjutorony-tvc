@@ -36,7 +36,11 @@ MAP_BASIC   equ $70
 
 PAPER_COL   equ $00             ; 0I0G0R0B: fekete hatter
 INK_COL     equ $50             ; vilagos zold (I+G): betuk, a rajzok feher reszei
+    IFDEF BORDER0
+BORDER_COL  equ BORDER0         ; a könyv meta 'border' értéke (a keret bitjei: I0G0R0B0)
+    ELSE
 BORDER_COL  equ $00
+    ENDIF
 
 IMG_BYTES   equ 30
 TXT_COL0    equ 31              ; a szoveg elso bajtoszlopa

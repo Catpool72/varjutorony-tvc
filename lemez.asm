@@ -20,7 +20,7 @@ disk_load:
         ld (dl_len),bc
         ld (dl_sp),sp
         ld sp,disk_stack_top
-        ld a,$41                ; kek keret: lemezolvasas folyik (ha igy marad: a VT-DOS hivas nem tert vissza)
+        ld a,$82                ; kek keret (a keret bitjei: I0G0R0B0): lemezolvasas folyik (ha igy marad: a VT-DOS hivas nem tert vissza)
         out ($00),a
         call music_silence      ; a betoltes alatt ne szoljon a hang
         ld a,MAP_LOGIC
@@ -219,7 +219,7 @@ disk_save:
         ld a,MAP_LOGIC
         ld (P_SAVE),a
         out ($02),a
-        ld a,$41
+        ld a,$82                ; kek keret
         out ($00),a
         ld a,$50                ; lemez, kimenet
         ld (DOS_DEV),a

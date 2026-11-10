@@ -6,6 +6,7 @@
   "ink": 0,
   "img_invert": true,
   "fixed_palette": true,
+  "border": 170,
   "ui": {
    "TITLE1": "A VARJÚTORONY URA",
    "TITLE2": "kalandkönyv",
