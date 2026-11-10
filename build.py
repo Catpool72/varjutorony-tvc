@@ -165,7 +165,9 @@ def main():
         y0 = (240 - bw.shape[0]) // 2; x0 = (240 - bw.shape[1]) // 2
         # 2 színű mód: 0 = fekete háttér, 1 = zöld. A to_tvc kimenetében 1 = az eredeti fehér papír,
         # így a papír zöld, a rajz fekete vonalai feketék maradnak; a keret körülötte fekete.
-        frame[y0:y0 + bw.shape[0], x0:x0 + bw.shape[1]] = bw
+        # világos papír + sötét tinta esetén (meta 'img_invert') a kép megfordul: ami eddig a fekete
+        # háttéren világított, az most a papír színe lesz; a keret marad papírszínű (0)
+        frame[y0:y0 + bw.shape[0], x0:x0 + bw.shape[1]] = ~bw if meta.get('img_invert') else bw
         Image.fromarray(np.stack([np.zeros_like(frame), np.where(frame, 255, 0), np.zeros_like(frame)], -1).astype('uint8')).save(os.path.join(a.out, f'img_p{page}.png'))
         return np.packbits(frame, axis=1).tobytes()     # 240 x 30 bájt
 
@@ -220,6 +222,7 @@ def main():
         w(f'N_ITEMS     equ {len(game.ITEMS)}')
         w(f'WIN_SEC     equ {WIN}')
         w(f"PAL_INK0    equ {meta.get('ink', 12)}          ; a tinta alapszíne (0..15: bit0 kék, 1 vörös, 2 zöld, 3 fényes)")
+        w(f"PAL_PAPER0  equ {meta.get('paper', 0)}          ; a háttér alapszíne")
         w(f'INTRO2_SEC  equ {NS + 1}')
         w(f'START_SEC   equ {0 if HAS_INTRO else 1}')
         w(f'KEYBYTE     equ {kids[0] >> 3 if kids else 0}')
@@ -287,7 +290,7 @@ def main():
     zene.build(os.path.join(a.out, 'zene.inc'))
 
     def assemble():
-        r = subprocess.run([SJ, '--nologo'] + (['-DDISK'] if a.disk else []) + [ f'--sym={a.out}/kaland.sym', f'--lst={a.out}/kaland.lst',
+        r = subprocess.run([SJ, '--nologo'] + (['-DDISK'] if a.disk else []) + (['-DNO_PALSWITCH'] if meta.get('fixed_palette') else []) + [ f'--sym={a.out}/kaland.sym', f'--lst={a.out}/kaland.lst',
                             f'-I{a.out}', f'-I{HERE}', os.path.join(HERE, 'kaland.asm')],
                            capture_output=True, text=True, cwd=a.out)
         syms_ = {}

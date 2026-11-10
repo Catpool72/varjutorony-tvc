@@ -16,7 +16,7 @@ VT-DOS-szal), majd:
 LOAD "KALAND"
 ```
 - **Szóköz/Tűz:** indulás, lapozás, választás · **Esc:** kilépés
-- **Kalandlap** (menü „Lap”): Fel = mentés, Le = visszatöltés, Bal/Jobb = háttér- és tintaszín
+- **Kalandlap** (menü „Lap”): Fel = mentés, Le = visszatöltés
 - A kezdőképernyőn a **Le** a mentett játékot tölti vissza.
 
 ## Mappák
@@ -44,7 +44,7 @@ cd varjutorony
 python3 kepcsere.py 12 uj_kep.png --neg --lagyit 2   # zöld-fekete, pontozott kép (mint a mostaniak)
 python3 kepcsere.py 12 uj_kep.png                    # fekete tusrajz fehér papíron
 ```
-A TVC 2 színű módjában a kép 240×240 képpont (a képernyőn álló 5:8 arányú); a kép sötét részeit a tinta színe festi (alapból fehér, fekete háttéren; a kalandlapon Bal/Jobb nyíllal állítható).
+A TVC 2 színű módjában a kép 240×240 képpont (a képernyőn álló 5:8 arányú); fekete betűk és rajz fehér lapon, mint egy nyomtatott könyvben.
 Részletek: [`varjutorony/README.md`](varjutorony/README.md).
 
 ## Szerzők

@@ -1173,8 +1173,10 @@ show_sheet:
         cp N_ITEMS
         jr c,.l
 .x:     ld a,TXT_ROWS-1
+    IFNDEF NO_PALSWITCH
         ld hl,MSG_COLHINT       ; Bal/Jobb: hatter- es tintaszin
         call print_at
+    ENDIF
     IFDEF DISK
         ld hl,MSG_SHEETKEYS     ; Szokoz: vissza, Fel: mentes, Le: visszatoltes
         call clear_prompt_str
@@ -1222,11 +1224,14 @@ show_sheet:
 ; A szinindex bitjei: 0 kek, 1 voros, 2 zold, 3 fenyes -> a port 0I0G0R0B formatuma.
 ; Ugyanaz a szin nem lehet hatter es tinta is (atugorja).
 ;-----------------------------------------------------------------------------
-pal_paper:  db 0                ; fekete
+pal_paper:  db PAL_PAPER0       ; alapszin: a könyv meta 'paper' értéke (alap: 0 = fekete)
 pal_ink:    db PAL_INK0         ; alapszin: a könyv meta 'ink' értéke (alap: 12 = világoszöld)
 
 ; color_keys: A = lenyomott billentyuk; A-t es B-t megtartja
 color_keys:
+    IFDEF NO_PALSWITCH
+        ret
+    ENDIF
         push af
         push bc
         ld b,a

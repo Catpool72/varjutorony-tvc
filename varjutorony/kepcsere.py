@@ -6,7 +6,7 @@ Kép cseréje: egy tetszőleges (pl. másik MI által rajzolt) képből elkész�
 
 - A képet álló 5:8 arányra vágja (középről), és az ill/pN.png-be menti.
 - Elkészíti az előnézetet is (elonezet/pN.png): így fog kinézni a TVC 2 színű képernyőjén
-  (a kép sötét részeit a tinta színe festi, alapból fehér).
+  (fehér lapon fekete tintával; a kép világos részei maradnak fehérek).
 - --neg: a kép megfordítása. Akkor kell, ha a kép világos rajz sötét alapon, vagy éjszakai
   jelenet, aminek a világos részeit (hold, tűz, fények) szeretnéd zölden látni.
 - --teljes: nem vág, a teljes kép látszik (ha nem 5:8 arányú, fölül-alul fekete sáv marad).
@@ -51,7 +51,7 @@ if round(hh * r / PIX_ASPECT) > 240: hh = int(240 * PIX_ASPECT / r)
 bw = to_tvc(im, hh, 'fs')
 fr = np.zeros((240, 240), bool); y0 = (240 - bw.shape[0]) // 2; x0 = (240 - bw.shape[1]) // 2
 fr[y0:y0 + bw.shape[0], x0:x0 + bw.shape[1]] = bw
-pv = Image.fromarray(np.stack([np.where(fr, 255, 0)] * 3, -1).astype('uint8'))
+pv = Image.fromarray(np.stack([np.where(fr, 0, 255)] * 3, -1).astype('uint8'))   # fekete tinta fehér lapon
 os.makedirs(os.path.join(HERE, 'elonezet'), exist_ok=True)
 pv.resize((300, 480), Image.NEAREST).save(os.path.join(HERE, 'elonezet', f'p{a.n}.png'))
 print(f'ill/p{a.n}.png kész; előnézet: elonezet/p{a.n}.png')

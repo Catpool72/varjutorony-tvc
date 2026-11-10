@@ -192,7 +192,9 @@ title:
     IFDEF DISK
         ld a,20 : ld hl,TITLE7 : call print_at
     ENDIF
+    IFNDEF NO_PALSWITCH
         ld a,21 : ld hl,MSG_COLHINT : call print_at
+    ENDIF
 .w:     call wait_key
         bit 5,a : jp nz,quit
         bit 4,a : jp nz,new_game

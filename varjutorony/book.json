@@ -2,7 +2,10 @@
  "meta": {
   "title": "A VARJÚTORONY URA",
   "win": 133,
-  "ink": 15,
+  "paper": 15,
+  "ink": 0,
+  "img_invert": true,
+  "fixed_palette": true,
   "ui": {
    "TITLE1": "A VARJÚTORONY URA",
    "TITLE2": "kalandkönyv",

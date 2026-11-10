@@ -28,7 +28,7 @@ A lemez szinte tele van: 93 fájl, kb. 20 KB szabad marad (a MENTES fájlnak el�
 ## A képek cseréje
 A `KEPEK.md` táblázatában minden képnek van magyar leírása és angol promptja (a közös stílusleírással a
 `kepek.json`-ban egyben). A legjobb eredményt **fekete tusrajz fehér papíron** stílus adja, álló 5:8 arányban
-(pl. 640×1024): a TVC a kép sötét részeit a tinta színével (alapból fehérrel) festi, a világosakat feketén hagyja.
+(pl. 640×1024): a TVC fehér lapon fekete tintával rajzol.
 
 ```
 python3 kepcsere.py 12 letoltott_kep.png          # -> ill/p12.png és elonezet/p12.png
@@ -38,7 +38,7 @@ python3 kepcsere.py 1 zold_fekete_kep.png --neg --lagyit 2   # már zöld-fekete
 python3 kepcsere.py 1 kep.png --teljes                # vágás nélkül, fekete sávokkal
 cd .. && python3 build.py --book varjutorony --disk
 ```
-Az `elonezet/pN.png` mutatja, hogyan fog kinézni a TVC-n (fehér-fekete, raszterezve). A `kepek.py` újrafuttatása
+Az `elonezet/pN.png` mutatja, hogyan fog kinézni a TVC-n (fekete-fehér, raszterezve). A `kepek.py` újrafuttatása
 felülírja az `ill/` mappát a programmal rajzolt képekkel – cserék után ne futtasd.
 
 ## Tárgyak és utak (röviden – vigyázat, árulkodó!)
