@@ -37,8 +37,10 @@ MAP_BASIC   equ $70
 PAPER_COL   equ $00             ; 0I0G0R0B: fekete hatter
 INK_COL     equ $50             ; vilagos zold (I+G): betuk, a rajzok feher reszei
     IFDEF BORDER0
+DISK_BORDER equ BORDER0         ; egyedi keretszin: lemezolvasaskor sem valtozik
 BORDER_COL  equ BORDER0         ; a könyv meta 'border' értéke (a keret bitjei: I0G0R0B0)
     ELSE
+DISK_BORDER equ $82             ; kek keret lemezolvasas kozben
 BORDER_COL  equ $00
     ENDIF
 
@@ -46,6 +48,11 @@ IMG_BYTES   equ 30
 TXT_COL0    equ 31              ; a szoveg elso bajtoszlopa
 TXT_W       equ 33              ; oszlopszam
 TXT_ROWS    equ 22              ; szovegsorok: 0..21
+    IFDEF TEXT_GAP
+TXT_LINES   equ TXT_ROWS-1      ; a konyv szovege 0..20: a 21. sor ures, elvalaszt az allapotsortol
+    ELSE
+TXT_LINES   equ TXT_ROWS
+    ENDIF
 PROMPT_ROW  equ 23
 
 ; billentyubitek
@@ -610,7 +617,7 @@ newline:
         ld a,(cur_row)
         inc a
         ld (cur_row),a
-        cp TXT_ROWS
+        cp TXT_LINES
         ret c
         push hl
         push bc

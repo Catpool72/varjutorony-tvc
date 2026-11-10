@@ -13,6 +13,17 @@ DOS_DEV     equ $1705
 DOS_BUF     equ $0B6B
 CHUNK_MAX   equ 4096
 
+; border_on: a lemezhivas idejere a keret; a ROM a hivas kozben a BORDERV-bol allitja
+; a keretet, ezert azt is atirjuk (a disk_done visszaadja)
+border_on:
+        ld a,(BORDERV)
+        ld (bv_save),a
+        ld a,DISK_BORDER
+        ld (BORDERV),a
+        out ($00),a
+        ret
+bv_save:    db 0
+
 ; disk_load: DE = nev, HL = cel, BC = hossz -> A = 0 / hibakod
 disk_load:
         ld (dl_name),de
@@ -20,8 +31,7 @@ disk_load:
         ld (dl_len),bc
         ld (dl_sp),sp
         ld sp,disk_stack_top
-        ld a,$82                ; kek keret (a keret bitjei: I0G0R0B0): lemezolvasas folyik (ha igy marad: a VT-DOS hivas nem tert vissza)
-        out ($00),a
+        call border_on          ; lemezolvasas folyik (kek keret, ha a konyv nem ad meg sajat keretet)
         call music_silence      ; a betoltes alatt ne szoljon a hang
         ld a,MAP_LOGIC
         ld (P_SAVE),a
@@ -59,6 +69,8 @@ disk_done:                      ; kozos befejezes: DI, lapozas, verem, video
         ld sp,(dl_sp)
         xor a                   ; a ROM a videomodot, a palettat es a keretet is allithatta
         out ($06),a
+        ld a,(bv_save)          ; a ROM keretvaltozoja vissza (kilepeskor a BASIC ezt kapja)
+        ld (BORDERV),a
         ld a,BORDER_COL : out ($00),a
         push bc
         call apply_pal
@@ -219,8 +231,7 @@ disk_save:
         ld a,MAP_LOGIC
         ld (P_SAVE),a
         out ($02),a
-        ld a,$82                ; kek keret
-        out ($00),a
+        call border_on
         ld a,$50                ; lemez, kimenet
         ld (DOS_DEV),a
         xor a
