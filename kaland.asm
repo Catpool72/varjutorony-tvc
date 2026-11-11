@@ -849,11 +849,11 @@ img_reveal:
         dec hl                  ; b = 0..8190: sor = b>>5, oszlop = b&31
         ld a,h
         cp 30
-        jr nc,.skip             ; sor >= 240
+        jp nc,.skip             ; sor >= 240
         ld a,l
         and 31
         cp IMG_BYTES
-        jr nc,.skip
+        jp nc,.skip
         ld c,a                  ; oszlop
         ld a,l
         and $E0
@@ -904,12 +904,16 @@ img_reveal:
         ld (hl),a
         jr .snd
 .full:  ld (hl),b
-.snd:   pop hl
+.snd:   pop hl                  ; csilingeles (a valodi lepesek kozul valogatva)
         push hl
         ld a,l
-        and 63
-        jr nz,.skip
-        ld a,h                  ; csilingeles: uj veletlen hang minden ~64. lepesben
+        and 15
+        cp 5
+        jp nz,.skip
+        ld a,l
+        and $70
+        jr nz,.dec              ; minden 8.-ban uj hang, kozben lecseng
+        ld a,h                  ; uj, veletlen hangmagassag
         add a,a
         add a,a
         add a,a
@@ -926,12 +930,21 @@ img_reveal:
 .lo:    out ($04),a             ; 1. menet: 381-760 Hz
         ld a,$0E|$10
 .o5:    out ($05),a
-        ld a,3<<2               ; halk; 2 szinu mod
+        ld a,12
+        jr .amp
+.dec:   ld a,(fx_amp)
+        or a
+        jp z,.skip
+        dec a
+.amp:   ld (fx_amp),a
+        add a,a
+        add a,a                 ; 2-5. bit; 2 szinu mod
         out ($06),a
 .skip:  pop hl
         jp .next
 
 fx_mode:    db 0
+fx_amp:     db 0
         ALIGN 8
 fxmask:     db $A5,$5A,$C3,$3C,$96,$69,$99,$66
     ENDIF
