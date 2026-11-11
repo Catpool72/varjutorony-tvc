@@ -290,7 +290,7 @@ def main():
     zene.build(os.path.join(a.out, 'zene.inc'))
 
     def assemble():
-        r = subprocess.run([SJ, '--nologo'] + (['-DDISK'] if a.disk else []) + (['-DNO_PALSWITCH'] if meta.get('fixed_palette') else []) + ([f"-DBORDER0={meta['border']}"] if 'border' in meta else []) + (['-DTEXT_GAP'] if meta.get('text_gap') else []) + [ f'--sym={a.out}/kaland.sym', f'--lst={a.out}/kaland.lst',
+        r = subprocess.run([SJ, '--nologo'] + (['-DDISK'] if a.disk else []) + (['-DNO_PALSWITCH'] if meta.get('fixed_palette') else []) + ([f"-DBORDER0={meta['border']}"] if 'border' in meta else []) + (['-DTEXT_GAP'] if meta.get('text_gap') else []) + (['-DIMG_FX'] if meta.get('img_fx') else []) + [ f'--sym={a.out}/kaland.sym', f'--lst={a.out}/kaland.lst',
                             f'-I{a.out}', f'-I{HERE}', os.path.join(HERE, 'kaland.asm')],
                            capture_output=True, text=True, cwd=a.out)
         syms_ = {}

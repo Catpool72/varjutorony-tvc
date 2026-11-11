@@ -803,6 +803,9 @@ draw_image:
         ldir
         ld a,MAP_DRAW
         call setmap
+    IFDEF IMG_FX
+        call img_reveal         ; varazskonyv-atmenet, utana a teljes masolas mar csak potol
+    ENDIF
         ld hl,IMG_BUF
         ld de,VRAM
         ld a,240
@@ -815,6 +818,123 @@ draw_image:
         dec a
         jr nz,.r
         ret
+
+    IFDEF IMG_FX
+;-----------------------------------------------------------------------------
+; img_reveal: "varazskonyv" atmenet: az uj rajz (IMG_BUF) veletlen sorrendben,
+; bajtonkent csillamlik elo a regi helyen. Ket menet: az elsoben minden bajt
+; felig (veletlen bitmaszkkal) valt at, a masodikban teljesen; kozben halk,
+; emelkedo csilingeles. Sorrend: 13 bites Galois-LFSR (8191 allapot, a 0.
+; bajtot a draw_image utana kovetkezo teljes masolasa potolja). MAP_DRAW.
+;-----------------------------------------------------------------------------
+IMG_TAPS    equ $10B5           ; maximalis hosszu 13 bites LFSR
+img_reveal:
+        ld a,1
+        call .pass
+        xor a
+        call .pass
+        jp music_silence
+.pass:  ld (fx_mode),a
+        ld hl,1
+.next:  srl h                   ; LFSR lepes
+        rr l
+        jr nc,.nt
+        ld a,h : xor IMG_TAPS>>8 : ld h,a
+        ld a,l : xor IMG_TAPS&255 : ld l,a
+.nt:    ld a,l
+        dec a
+        or h
+        ret z                   ; vissza az 1-hez: kesz
+        push hl
+        dec hl                  ; b = 0..8190: sor = b>>5, oszlop = b&31
+        ld a,h
+        cp 30
+        jr nc,.skip             ; sor >= 240
+        ld a,l
+        and 31
+        cp IMG_BYTES
+        jr nc,.skip
+        ld c,a                  ; oszlop
+        ld a,l
+        and $E0
+        ld l,a                  ; HL = sor*32
+        ld d,h
+        ld e,l
+        srl d : rr e
+        srl d : rr e
+        srl d : rr e
+        srl d : rr e            ; DE = sor*2
+        push hl
+        or a
+        sbc hl,de               ; sor*30
+        ld a,l
+        add a,c
+        ld l,a
+        jr nc,.n1
+        inc h
+.n1:    ld a,h
+        or IMG_BUF>>8
+        ld h,a
+        ld b,(hl)               ; az uj bajt
+        pop hl
+        add hl,hl               ; sor*64
+        ld a,l
+        or c
+        ld l,a
+        set 7,h                 ; VRAM cim
+        ld a,(fx_mode)
+        or a
+        jr z,.full
+        pop de                  ; DE = LFSR allapot: a maszk valasztasa
+        push de
+        ld a,e
+        and 7
+        add a,fxmask&255
+        ld e,a
+        ld d,fxmask>>8
+        ld a,(de)
+        ld e,a
+        ld a,b
+        and e
+        ld b,a
+        ld a,e
+        cpl
+        and (hl)
+        or b
+        ld (hl),a
+        jr .snd
+.full:  ld (hl),b
+.snd:   pop hl
+        push hl
+        ld a,l
+        and 63
+        jr nz,.skip
+        ld a,h                  ; csilingeles: uj veletlen hang minden ~64. lepesben
+        add a,a
+        add a,a
+        add a,a
+        xor l
+        ld b,a
+        ld a,(fx_mode)
+        or a
+        ld a,b
+        jr nz,.lo
+        and $7F                 ; 2. menet: magasabb hangok (763-1514 Hz)
+        out ($04),a
+        ld a,$0F|$10
+        jr .o5
+.lo:    out ($04),a             ; 1. menet: 381-760 Hz
+        ld a,$0E|$10
+.o5:    out ($05),a
+        ld a,3<<2               ; halk; 2 szinu mod
+        out ($06),a
+.skip:  pop hl
+        jp .next
+
+fx_mode:    db 0
+        ALIGN 8
+fxmask:     db $A5,$5A,$C3,$3C,$96,$69,$99,$66
+    ENDIF
 
 ROWTAB:                         ; szovegsor -> VRAM cim (a szovegterulet elso oszlopa)
 rr = 0
