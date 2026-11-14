@@ -39,6 +39,8 @@ UI = {
     'TITLE4': 'TVC GRAPHICS 2 demó',
     'TITLE5': 'Szóköz/Tűz: indulás',
     'TITLE6': 'Esc: kilépés',
+    'TITLE_AI1': 'AI-jal készült:',
+    'TITLE_AI2': 'Claude és ChatGPT',
     'MSG_MORE': '--- tovább: Szóköz ---',
     'MSG_LAPOZZ': 'Lapozz:',
     'MSG_END': 'Kalandod véget ért. Szóköz: újra',

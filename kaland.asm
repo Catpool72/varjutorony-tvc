@@ -198,6 +198,8 @@ title:
         ld a,5 : ld hl,TITLE2 : call print_at
         ld a,7 : ld hl,TITLE3 : call print_at
         ld a,12 : ld hl,TITLE4 : call print_at
+        ld a,14 : ld hl,TITLE_AI1 : call print_at
+        ld a,15 : ld hl,TITLE_AI2 : call print_at
         ld a,18 : ld hl,TITLE5 : call print_at
         ld a,19 : ld hl,TITLE6 : call print_at
     IFDEF DISK
