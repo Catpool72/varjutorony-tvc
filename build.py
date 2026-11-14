@@ -262,6 +262,7 @@ def main():
         w('SEC_IMG:                  ; fejezetszám -> rajz sorszáma (0 = nincs)')
         dbs([0] + [imgs.index(n) + 1 if n in imgs else 0 for n in range(1, NS + 1)] + ([0] if HAS_INTRO else []))
         w('JUMPTAB:                  ; fejezetszám -> mutató: db darab, dw célok')
+        w(f'JUMPTAB_N   equ {NS + 1 + (1 if HAS_INTRO else 0)}      ; a táblázat elemszáma')
         dbs([('J0' if 0 in cs else '0')] + [f'J{n}' if n in cs else '0' for n in range(1, NS + 1)]
             + ([f'J{NS + 1}'] if HAS_INTRO else []), 'dw')
         enc_str = lambda t: [idx[c] for c in t] + [0]

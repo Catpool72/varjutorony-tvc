@@ -13,7 +13,7 @@ def cond(p):
     c = mem[p] & 0x7F
     return p + {67: 2, 68: 3}.get(c, 1)
 bad = 0
-for n in range(0, syms.get('INTRO2_SEC', 407) + 1):
+for n in range(0, syms.get('JUMPTAB_N', syms.get('INTRO2_SEC', 407) + 1)):
     j = w(syms['JUMPTAB'] + 2 * n)
     if not j: continue
     p = j + 1 + 2 * mem[j]
